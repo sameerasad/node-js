@@ -5,8 +5,9 @@ const server = http.createServer((req, res) => {
     res.write("hello world");
     res.end();
   }
-  if (res.url === "/course/api") {
+  if (req.url === "/course/api") {
     res.write(JSON.stringify([1, 2, 3]));
+    res.end();
   }
 });
 server.listen(3000);
