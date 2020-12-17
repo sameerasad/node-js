@@ -1,2 +1,5 @@
 const fs = require("fs");
-console.log(fs.readdirSync("./"));
+fs.readdir("./", (err, files) => {
+  if (err) console.log("ERROR", err);
+  else console.log("Files", files);
+});
