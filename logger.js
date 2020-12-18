@@ -1,3 +1,5 @@
+console.log(__dirname);
+console.log(__dirname);
 var url = "http/sameer.io/log";
 const EventEmitter = require("events");
 
