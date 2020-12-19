@@ -1,7 +1,6 @@
-const addition = require("../cheeta-lib/index");
-const add = require("cheeta-lib-11112");
-console.log(add);
+const maths = require("cheeta-lib-11112");
+console.log(maths);
 
-const result = add.sum(0, 5);
+const result = maths.sum(0, 5);
 console.log(result);
-console.log(add.sum(4.5, 6));
+console.log(maths.mul(6, 6));

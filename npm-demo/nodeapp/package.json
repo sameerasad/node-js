@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cheeta-lib-11112": "^1.0.0"
+    "cheeta-lib-11112": "^1.1.1"
   }
 }
